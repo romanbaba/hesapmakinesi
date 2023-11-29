@@ -41,7 +41,6 @@ export const CommandData: CommandOptions = {
 ```ts
 import type { EventOptions } from '@/types.ts';
 
-
 export const EventData: EventOptions<'ready'> = {
   category: 'ready',
   run() {},
